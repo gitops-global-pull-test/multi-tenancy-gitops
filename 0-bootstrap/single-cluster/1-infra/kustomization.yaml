@@ -36,6 +36,7 @@ resources:
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
+- argocd/global-pull-secret.yaml
 patches:
 - target:
     group: argoproj.io
